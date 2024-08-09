@@ -1,6 +1,6 @@
 FROM tomcat:10.1-jdk17
 
-COPY target/rest_application.war /usr/local/tomcat/webapps/
+COPY target/rest_application.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
